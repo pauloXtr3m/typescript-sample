@@ -1,0 +1,21 @@
+{
+  "name": "lab01-12",
+  "version": "1.0.0",
+  "description": "Advanced Front End Class 01",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/tsc",
+    "watch": "./node_modules/.bin/tsc -watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/webpack-dev-server -d --hot --watch"
+  },
+  "author": "Paulo de Oliveira",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^3.2.0",
+    "typescript": "^2.6.2",
+    "webpack": "^3.9.1",
+    "webpack-dev-server": "^2.9.5",
+    "webpack-server": "^0.1.2"
+  }
+}
