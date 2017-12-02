@@ -4,7 +4,7 @@ var Hello = /** @class */ (function () {
     function Hello() {
     }
     Hello.prototype.say = function (name) {
-        return "Olá, ${name}!";
+        return "Hello, " + name + "!";
     };
     return Hello;
 }());

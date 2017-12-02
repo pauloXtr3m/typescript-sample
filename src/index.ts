@@ -1,6 +1,11 @@
 
-import {Hello} from './service/Hello'
+import {ContactListController} from "./controller/ContactListController";
+const controller = new ContactListController();
 
-const hello = new Hello()
+controller.initialize();
 
-console.log(hello.say("Paulo"));
+declare const module: any;
+
+if (module.hot) {
+    module.hot.accept();
+}

@@ -1,5 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var Hello_1 = require("./service/Hello");
-var hello = new Hello_1.Hello();
-console.log(hello.say("Paulo"));
+var ContactListController_1 = require("./controller/ContactListController");
+var controller = new ContactListController_1.ContactListController();
+controller.initialize();
+if (module.hot) {
+    module.hot.accept();
+}
